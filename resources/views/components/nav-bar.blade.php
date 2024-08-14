@@ -1,15 +1,17 @@
 <div>
     <!-- Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less. - Marie Curie -->
     <div class="sidebar">
-        <h2>MY APP</h2>
+        <h2>MyNewApp</h2>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="{{route('demo')}}">Next</a></li>
+            <li><a href="{{route('content')}}">Content Management System</a></li>
+            <li><a href="{{route('sendNotify')}}">Send Email</a></li>
+            <li><a href="{{route('sendbroadcast')}}">BroadCast Email</a></li>
+            <li><a href="{{route('follow')}}">Follow</a></li>
+            <li><a href="{{route('upload')}}">Upload Image</a></li>
+            <li><a href="{{route('importShow')}}">Import File</a></li>
+            <li><a href="{{route('logout')}}">Logout</a></li>
+
             
         </ul>
     </div>

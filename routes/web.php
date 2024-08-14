@@ -4,6 +4,7 @@ use App\Http\Controllers\AccessController;
 use App\Http\Controllers\ActionController;
 use App\Http\Controllers\AgeController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\CsvFileController;
 use App\Http\Controllers\EmailController;
 use App\Http\Controllers\MyServiceController;
 use App\Http\Controllers\NotificationController;
@@ -156,3 +157,8 @@ Route::get('photo',[PhotoController::class,'show'])->name('upload');
 Route::post('uploadPhoto',[PhotoController::class,'upload']);
 //working with api
 Route::get('destroy',[PhotoController::class,'destroy'])->name('destroy');
+
+
+//import CSV file and display on UI
+Route::get('Showimport',[CsvFileController::class,'show'])->name('importShow');
+Route::post('import',[CsvFileController::class,'import'])->name('import');

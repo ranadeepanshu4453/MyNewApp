@@ -31,13 +31,9 @@
 
 
 <div class="button-container">
-    <x-button text="Next" url="demo"/>
-    <x-button text="Content Management System" url="content"/>
-    <x-button text="Send Email" url="sendNotify"/>
-    <x-button text="BroadCast Email" url="sendbroadcast"/>
-    <x-button text="Follow" url="follow"/>
+    
     <x-button text="Logout" url="logout"/>
-    <x-button text="Upload Image" url="upload"/>
+   
     
 </div>
 

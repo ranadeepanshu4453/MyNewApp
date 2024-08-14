@@ -189,6 +189,9 @@ return [
         /*
          * Application Service Providers...
          */
+        //
+       
+        //
         App\Providers\MyServiceProvider::class,
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
@@ -211,6 +214,8 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
+       
     ])->toArray(),
+
 
 ];
